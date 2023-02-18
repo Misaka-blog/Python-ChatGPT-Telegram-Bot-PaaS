@@ -9,10 +9,10 @@ allowed_chats = "ALLOWED_CHATS"
 openai.api_key = "OPENAI_KEY"
 
 # 以下设置不需要修改
-chat_language = "zh"
+chat_language = "zh-hans"
 MSG_LIST_LIMIT = 20
 LANGUAGE_TABLE = {
-    "zh": "你好！",
+    "zh-hans": "你好！",
     "en": "Hello!"
 }
 
