@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-
 # 定义TG Bot Token，允许使用Bot的用户ID及OpenAI API Key
 TG_BOT_TOKEN=${TG_BOT_TOKEN}
 ALLOWED_CHATS=${ALLOWED_CHATS}
 OPENAI_KEY=${OPENAI_KEY}
-sed -i "s#TG_BOT_TOKEN#${TG_BOT_TOKEN}#g;s#ALLOWED_CHATS#${ALLOWED_CHATS}#g;s#OPENAI_KEY#${OPENAI_KEY}#g" config.json
+
+sed -i "s#TG_BOT_TOKEN#${TG_BOT_TOKEN}#g;s#ALLOWED_CHATS#${ALLOWED_CHATS}#g;s#OPENAI_KEY#${OPENAI_KEY}#g" main.py
 
 # 设置 python 运行环境
 pip3 install -r requirements.txt
